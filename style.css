@@ -1,0 +1,157 @@
+body{
+    background-color: azure;
+}
+
+.maincontainer{
+    padding: 10px;
+    background: rgba(145, 30, 239, 0.892);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* border: 2px solid black; */
+}
+.leftsection{
+    background-color: rgb(152, 142, 142);
+    /* border: 2px solid rgb(249, 249, 249); */
+    width: 300px;
+
+}
+.leftcontent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding: 20px; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.rightsection{
+    width: 700px;
+    /* border: 2px solid rgb(255, 255, 255); */
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.profileimage{
+    border: 5px sloid white;
+    border-radius: 30%;
+    width:150px;
+    height:150px;
+    background-image: url(./dp\ soft\ pcopy.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.profilename{
+    text-align: center;
+}
+.name{
+    font-size: 1.2rem;
+    font-weight: 700;
+    word-spacing: 0.02px;
+}
+.container{
+    background-color: rgb(255, 255, 255);
+    width: 150px;
+    height: 10px;
+    border-radius: 15px;
+    margin: 10px;
+}
+.skill{
+    margin: 10px;
+}
+.bar{
+    margin:5px;
+}
+.catia{
+    width: 85%;
+    height: 10px;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 0);
+    margin-left: 0px;
+}
+.autocad{
+    width: 55%;
+    height: 10px;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 0);
+    margin-left: 0px;
+}
+.java{
+    width: 60%;
+    height: 10px;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 0);
+    margin-left: 0px;
+}
+.html{
+    width: 75%;
+    height: 10px;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 0);
+    margin-left: 0px;
+}
+.css{
+    width: 75%;
+    height: 10px;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 0);
+    margin-left: 0px;
+}
+.javascript{
+    width: 40%;
+    height: 10px;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 0);
+    margin-left: 0px;
+}
+.containerlan{
+    width: 150px;
+    background-color: rgb(255, 255, 255);
+    height: 10px;
+    border-radius: 15px;
+}
+.lan{
+    height: 10px;
+    border-radius: 15px;
+    margin: -10px;
+}
+.english{
+    width: 107%;
+    background-color: yellow;
+}
+.kannada{
+    width: 107%;
+    background-color: yellow;
+}
+.hindi{
+    width: 90%;
+    background-color: yellow;
+}
+.tamil{
+    width: 30%;
+    background-color: yellow;
+}
+.languages{
+    margin-top: 0;
+}
+.left-font{
+    color: white;
+}
+.icon-text{
+    color: rgb(255, 255, 255);
+    margin: 10px;
+}
+.nav-icon{
+    color: rgb(225, 255, 0);
+}
+a{
+    text-decoration: none;
+}
+.aboutme, .education, .experience{
+    word-spacing: 1px;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 0.5rem;
+}
